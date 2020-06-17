@@ -1,1 +1,1 @@
-# Learning about sorting algorithms and Big O notation
+### Learning about sorting algorithms and Big O notation
