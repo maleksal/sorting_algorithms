@@ -13,7 +13,10 @@ void selection_sort(int *array, size_t size)
 	size_t idx, current_n;
 	int temp_variable;
 
-	for (idx = 0; idx < size; idx++)
+	if (!array)
+		return ;
+
+	for (idx = 0; idx < size  - 1; idx++)
 	{
 		for (current_n = idx + 1; current_n < size; current_n++)
 		{
